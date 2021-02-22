@@ -1,4 +1,4 @@
-using EatMe1.Data;
+﻿using EatMe1.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +35,9 @@ namespace EatMe1
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+
+            services.AddDbContext<EatMe1Context>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("EatMe1Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
