@@ -1,0 +1,42 @@
+﻿@model EatMeApp.Models.IngredientLists
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>IngredientLists</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Recipe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Recipe.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IgredientId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IgredientId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Measure)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Measure.MeasureId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IngredientListsId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
