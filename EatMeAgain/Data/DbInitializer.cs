@@ -29,7 +29,8 @@ namespace EatMeAgain.Data
 
             var ingredients = new Ingredient[]
             {
-                new Ingredient{Name = "Olej"}
+                new Ingredient{Name = "Olej"},
+                new Ingredient{Name = "Cebula"}
             };
             foreach (Ingredient i in ingredients)
             {
@@ -39,7 +40,8 @@ namespace EatMeAgain.Data
 
             var measures = new Measure[]
             {
-                new Measure{Name = "Łyżka"}
+                new Measure{Name = "Łyżka"},
+                new Measure{Name = "Szt."}
             };
             foreach (Measure m in measures)
             {
@@ -49,7 +51,8 @@ namespace EatMeAgain.Data
 
             var ingredientLists = new IngredientList[]
             {
-                new IngredientList{Quantity=1,RecipeID=1,IngredientID=1,MeasureID=1}
+                new IngredientList{Quantity=1,RecipeID=1,IngredientID=1,MeasureID=1},
+                new IngredientList{Quantity=1,RecipeID=1,IngredientID=2,MeasureID=2}
             };
             foreach (IngredientList iL in ingredientLists)
             {

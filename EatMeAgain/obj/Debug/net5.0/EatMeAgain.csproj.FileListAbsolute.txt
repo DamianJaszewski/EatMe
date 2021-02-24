@@ -455,3 +455,8 @@ C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\R
 C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\Recipes\Details.cshtml.g.cs
 C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\Recipes\Edit.cshtml.g.cs
 C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\Recipes\Index.cshtml.g.cs
+C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\IngredientLists\Create.cshtml.g.cs
+C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\IngredientLists\Delete.cshtml.g.cs
+C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\IngredientLists\Details.cshtml.g.cs
+C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\IngredientLists\Edit.cshtml.g.cs
+C:\Users\damia\source\repos\EatMeAgain\EatMeAgain\obj\Debug\net5.0\Razor\Views\IngredientLists\Index.cshtml.g.cs

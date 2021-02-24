@@ -34,7 +34,13 @@ namespace EatMeAgain.Controllers
             }
 
             var recipe = await _context.Recipes
+                .Include(r => r.IngredientLists)
+                    .ThenInclude(iL => iL.Ingredient)
+                .Include(r => r.IngredientLists)
+                    .ThenInclude(iL => iL.Measure)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(m => m.ID == id);
+
             if (recipe == null)
             {
                 return NotFound();
@@ -54,13 +60,23 @@ namespace EatMeAgain.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Name,PreepTime,Instruction")] Recipe recipe)
+        public async Task<IActionResult> Create([Bind("Name,PreepTime,Instruction")] Recipe recipe)
         {
-            if (ModelState.IsValid)
+            try
+            {
+                if (ModelState.IsValid)
             {
                 _context.Add(recipe);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+            }
+            }
+            catch (DbUpdateException /* ex */)
+            {
+                //Log the error (uncomment ex variable name and write a log.
+                ModelState.AddModelError("", "Unable to save changes. " +
+                    "Try again, and if the problem persists " +
+                    "see your system administrator.");
             }
             return View(recipe);
         }
