@@ -100,36 +100,34 @@ namespace EatMeAgain.Controllers
         // POST: Recipes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,PreepTime,Instruction")] Recipe recipe)
+        public async Task<IActionResult> EditPost(int? id)
         {
-            if (id != recipe.ID)
+            if (id == null)
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
+            var recipeToUpdate = await _context.Recipes.FirstOrDefaultAsync(r => r.ID == id);
+            if (await TryUpdateModelAsync<Recipe>(
+                recipeToUpdate,
+                "",
+                r => r.Name, r => r.PreepTime, r => r.Instruction))
             {
                 try
                 {
-                    _context.Update(recipe);
                     await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (DbUpdateException /* ex */)
                 {
-                    if (!RecipeExists(recipe.ID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    //Log the error (uncomment ex variable name and write a log.)
+                    ModelState.AddModelError("", "Unable to save changes. " +
+                        "Try again, and if the problem persists, " +
+                        "see your system administrator.");
                 }
-                return RedirectToAction(nameof(Index));
             }
-            return View(recipe);
+            return View(recipeToUpdate);
         }
 
         // GET: Recipes/Delete/5

@@ -50,9 +50,9 @@ namespace EatMeAgain.Controllers
         // GET: IngredientLists/Create
         public IActionResult Create()
         {
-            ViewData["IngredientID"] = new SelectList(_context.Ingredients, "ID", "ID");
-            ViewData["MeasureID"] = new SelectList(_context.Measures, "ID", "ID");
-            ViewData["RecipeID"] = new SelectList(_context.Recipes, "ID", "ID");
+            ViewData["Ingredient"] = new SelectList(_context.Ingredients, "ID", "Name");
+            ViewData["Measure"] = new SelectList(_context.Measures, "ID", "Name");
+            ViewData["Recipe"] = new SelectList(_context.Recipes, "ID", "Name");
             return View();
         }
 
