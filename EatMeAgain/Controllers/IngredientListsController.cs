@@ -50,8 +50,8 @@ namespace EatMeAgain.Controllers
         // GET: IngredientLists/Create
         public IActionResult Create()
         {
-            ViewData["Ingredient"] = new SelectList(_context.Ingredients, "ID", "Name");
-            ViewData["Measure"] = new SelectList(_context.Measures, "ID", "Name");
+            //ViewData["Ingredient"] = new SelectList(_context.Ingredients, "ID", "Name");
+            //ViewData["Measure"] = new SelectList(_context.Measures, "ID", "Name");
             ViewData["Recipe"] = new SelectList(_context.Recipes, "ID", "Name");
             return View();
         }
@@ -61,7 +61,7 @@ namespace EatMeAgain.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Quantity,RecipeID,IngredientID,MeasureID")] IngredientList ingredientList)
+        public async Task<IActionResult> Create([Bind("ID,Quantity,RecipeID,Ingredient,Measure")] IngredientList ingredientList)
         {
             if (ModelState.IsValid)
             {
@@ -69,8 +69,8 @@ namespace EatMeAgain.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IngredientID"] = new SelectList(_context.Ingredients, "ID", "ID", ingredientList.IngredientID);
-            ViewData["MeasureID"] = new SelectList(_context.Measures, "ID", "ID", ingredientList.MeasureID);
+            //ViewData["IngredientID"] = new SelectList(_context.Ingredients, "ID", "ID", ingredientList.IngredientID);
+            //ViewData["MeasureID"] = new SelectList(_context.Measures, "ID", "ID", ingredientList.MeasureID);
             ViewData["RecipeID"] = new SelectList(_context.Recipes, "ID", "ID", ingredientList.RecipeID);
             return View(ingredientList);
         }
@@ -88,9 +88,9 @@ namespace EatMeAgain.Controllers
             {
                 return NotFound();
             }
-            ViewData["IngredientID"] = new SelectList(_context.Ingredients, "ID", "ID", ingredientList.IngredientID);
-            ViewData["MeasureID"] = new SelectList(_context.Measures, "ID", "ID", ingredientList.MeasureID);
-            ViewData["RecipeID"] = new SelectList(_context.Recipes, "ID", "ID", ingredientList.RecipeID);
+            ViewData["Ingredient"] = new SelectList(_context.Ingredients, "Name", "Name", ingredientList.IngredientID);
+            ViewData["Measure"] = new SelectList(_context.Measures, "Name", "Name", ingredientList.MeasureID);
+            ViewData["Recipe"] = new SelectList(_context.Recipes, "Name", "Name", ingredientList.RecipeID);
             return View(ingredientList);
         }
 
