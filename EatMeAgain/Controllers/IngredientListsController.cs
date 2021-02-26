@@ -50,8 +50,8 @@ namespace EatMeAgain.Controllers
         // GET: IngredientLists/Create
         public IActionResult Create()
         {
-            //ViewData["Ingredient"] = new SelectList(_context.Ingredients, "ID", "Name");
-            //ViewData["Measure"] = new SelectList(_context.Measures, "ID", "Name");
+            ViewData["Ingredient"] = new SelectList(_context.Ingredients, "ID", "Name");
+            ViewData["Measure"] = new SelectList(_context.Measures, "ID", "Name");
             ViewData["Recipe"] = new SelectList(_context.Recipes, "ID", "Name");
             return View();
         }
@@ -69,8 +69,8 @@ namespace EatMeAgain.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            //ViewData["IngredientID"] = new SelectList(_context.Ingredients, "ID", "ID", ingredientList.IngredientID);
-            //ViewData["MeasureID"] = new SelectList(_context.Measures, "ID", "ID", ingredientList.MeasureID);
+            ViewData["IngredientID"] = new SelectList(_context.Ingredients, "ID", "ID", ingredientList.IngredientID);
+            ViewData["MeasureID"] = new SelectList(_context.Measures, "ID", "ID", ingredientList.MeasureID);
             ViewData["RecipeID"] = new SelectList(_context.Recipes, "ID", "ID", ingredientList.RecipeID);
             return View(ingredientList);
         }
