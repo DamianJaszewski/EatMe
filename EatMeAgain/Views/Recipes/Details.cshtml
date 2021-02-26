@@ -11,26 +11,26 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
+            Nazwa przepisu
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Name)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.PreepTime)
+            Przygotowanie
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.PreepTime)
+            @Html.DisplayFor(model => model.PreepTime) minut
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Instruction)
+            Instrukcja
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Instruction)
         </dd>
 
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IngredientLists)
+            Lista składników
         </dt>
         <dd class="col-sm-10">
             <table class="table">
@@ -38,6 +38,7 @@
                     <th>Składnik</th>
                     <th>Ilość</th>
                     <th>Miara</th>
+                    <th></th>
                 </tr>
                 @foreach (var item in Model.IngredientLists)
                 {
