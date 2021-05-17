@@ -127,7 +127,7 @@ Funkcje dodatkowe:
     <tbody>
         <tr>
             <th>2.0</th>
-            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji Wikipedia</th>
+            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Wikipedia"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji wikipedia program prawidłowo przetworzy i pobierze hasło od użytkownika, następnie pobierze liczbę zdań od użytkownika. Podyktuje treść. Daną treść będzie można następnie zapisać do nowego pliku. </th>
         </tr>
         <tr>
@@ -163,7 +163,7 @@ Funkcje dodatkowe:
     <tbody>
         <tr>
             <th>3.0</th>
-            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji Notatka</th>
+            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Notatka"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji notatka program pobierze od użytkownika tytuł notatki oraz treść noatatki. Następnie program ma za zadanie zapisać notatkę do nowego pliku.</th>
         </tr>
       <tr>
@@ -177,6 +177,37 @@ Funkcje dodatkowe:
             <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Notatka"</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>4.0</th>
+            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Otwórz plik" lub "Otwórz notatkę"</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji otwórz plik program pobierze nazwę wybranego przez użytkownika pliku oraz otworzy go.</th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Otwórz plik" lub "Otwórz notatkę"</td>
             <td>Oczekiwany wynik</td>
             <td>Rzeczywisty wynik</td>
         </tr>
