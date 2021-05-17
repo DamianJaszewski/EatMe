@@ -21,12 +21,12 @@ And more      | With an escaped '\|'         ||
 <table>
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
-            <th>Layer 4</th>
-            <th>Layer 5</th>
-            <th>Layer 5</th>
+            <th>Nazwa</th>
+            <th>Typ testu</th>
+            <th>ID</th>
+            <th>Opis Kroku</th>
+            <th>Oczekiwany wynik</th>
+            <th>Rzeczywisty wynik</th>
         </tr>
     </thead>
     <tbody>
