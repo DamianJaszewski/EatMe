@@ -22,18 +22,18 @@ And more      | With an escaped '\|'         ||
     <thead>
         <tr>
             <th>Nazwa</th>
-            <th>Typ testu</th>
             <th>ID</th>
-            <th>Opis Kroku</th>
-            <th>Oczekiwany wynik</th>
-            <th>Rzeczywisty wynik</th>
+            <th colspan=4>Opis</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+            <td>Nazwa</td>
+            <td>Typ testu</td>
+            <td>ID</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
         </tr>
         <tr>
             <td>L3 Name B</td>
