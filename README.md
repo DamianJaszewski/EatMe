@@ -195,7 +195,7 @@ Funkcje dodatkowe:
         <tr>
             <th>4.0</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Otwórz plik" lub "Otwórz notatkę"</th>
-            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji otwórz plik program pobierze nazwę wybranego przez użytkownika pliku oraz otworzy go.</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji otwórz plik, otwórz notatkę program pobierze nazwę wybranego przez użytkownika pliku, notatki oraz otworzy go.</th>
         </tr>
       <tr>
             <td></td>
@@ -208,6 +208,68 @@ Funkcje dodatkowe:
             <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Otwórz plik" lub "Otwórz notatkę"</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>4.0</th>
+            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Wyszukiwarka"</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji wyszukiwarka program prawidłowo przetworzy i pobierze haslo wyszkiwania, które następnie wyszuka w domyślnej przeglądarce użytkownika.</th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Wyszukiwarka"</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>4.0</th>
+            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Screenshot"</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji screenshot asystent wykona screenshot ekrany i poprosi użytkownika o podanie nazwy pliku, jaki ma zostać utworzony, po czym zapiszę plik.</th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Screenshot"</td>
             <td>Oczekiwany wynik</td>
             <td>Rzeczywisty wynik</td>
         </tr>
