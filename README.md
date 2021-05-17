@@ -120,15 +120,15 @@ Funkcje dodatkowe:
     <thead>
         <tr>
             <th>ID</th>
-            <th>Nazwa</th>
-            <th colspan=3>Opis</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th>2.0</th>
-            <th>Funkcje podstawowe - korzystanie z funkcji Wikipedia</th>
-            <th colspan=3>Test sprawdza czy po uruchomieniu funkcji wikipedia program prawidłowo przetworzy i pobierze hasło od użytkownika, następnie pobierze liczbę zdań od użytkownika. Podyktuje treść. Daną treść będzie można następnie zapisać do nowego pliku. </th>
+            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji Wikipedia</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji wikipedia program prawidłowo przetworzy i pobierze hasło od użytkownika, następnie pobierze liczbę zdań od użytkownika. Podyktuje treść. Daną treść będzie można następnie zapisać do nowego pliku. </th>
         </tr>
         <tr>
             <td></td>
@@ -156,15 +156,15 @@ Funkcje dodatkowe:
     <thead>
         <tr>
             <th>ID</th>
-            <th>Nazwa</th>
-            <th colspan=3>Opis</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th>3.0</th>
-            <th>Funkcje podstawowe - korzystanie z funkcji Notatka</th>
-            <th colspan=3>Test sprawdza czy po uruchomieniu funkcji notatka program pobierze od użytkownika tytuł notatki oraz treść noatatki. Następnie program ma za zadanie zapisać notatkę do nowego pliku.</th>
+            <th colspan=2>Funkcje podstawowe - korzystanie z funkcji Notatka</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji notatka program pobierze od użytkownika tytuł notatki oraz treść noatatki. Następnie program ma za zadanie zapisać notatkę do nowego pliku.</th>
         </tr>
       <tr>
             <td></td>
