@@ -51,7 +51,7 @@ And more      | With an escaped '\|'         ||
         <tr>
             <td>1.2</td>
             <td>Nazwa</td>
-            <td>Typ testu</td>
+            <td>Pozytywny</td>
             <td>Sprawdź wyświetlane opcje, oczekiwane funkcje menu.
              
 Podstawowe funkcje:
@@ -127,6 +127,51 @@ Funkcje dodatkowe:
 - Lotto
 - Gierka
 - Zamknij</td>
+        </tr>
+        <tr>
+            <td>1.3</td>
+            <td>Nazwa</td>
+            <td>Pozytywny</td>
+            <td>W przypadku braku reakcji ze strony użytkownika</td>
+            <td>Asystent poinformuje o tym użytkownika</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nazwa</th>
+            <th colspan=4>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>2.0</th>
+            <th>Funkcje podstawowe - korzystanie z funkcji Wikipedia</th>
+            <th colspan=4>Test sprawdza czy po uruchomieniu funkcji wikipedia program prawidłowo przetworzy i pobierze hasło od użytkownika, następnie pobierze liczbę zdań od użytkownika. Podyktuje treść. Daną treść będzie można następnie zapisać do nowego pliku. </th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Korzystanie z funkcji Wikipedia</td>
+            <td>Pozytywny</td>
+            <td>Wybierz głoso funkcje hasłem "Wikipedia"</td>
+            <td>Po wybraniu funkcju aplikacja prosi o:
+            - podanie hasła,
+            - podanie ilosći zdań.
+            Pogram pobiera dane z wikipedi i dyktuje informacje.
+            Program </td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+        <tr>
+            <td>1.1</td>
+            <td>Wyświetlenie menu asystenta głosowego</td>
+            <td>Pozytywny</td>
+            <td>Uruchom aplikację</td>
+            <td>Menu zostaję wyświetlone. Asystent głosowy się wita i zachęca głosowo do wprowadzenia funkcji.</td>
+            <td>Menu wyświetliło się. Asystent się przywitał i zachęcił do wyboru funkcji.</td>
         </tr>
         <tr>
             <td>ID</td>
