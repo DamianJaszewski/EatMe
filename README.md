@@ -355,3 +355,65 @@ Funkcje dodatkowe:
         </tr>
     </tbody>
 </table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>8.0</th>
+            <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Pogoda"</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji Pogoda i podaniu wybranego przez użytkownika miasta program prawidłowo przetworzy i pobierze miasto oraz przekarze dane pogodowe dla danej miejscowosci.</th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Pogoda" + wybrane miasto</td>
+            <td>Program po wywołaniu funkcji i po podaniu miasta przekazuje dane odnośnie pogody.</td>
+            <td>Program po wywołaniu funkcji pogoda i podaniu miasta pobrał i przekazał głosowo aktualną informację o pogodzie</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>9.0</th>
+            <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Klawiatura"</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji Klawiatura program prawidłowo przetworzy i pobierze symbol klawisza przekazywany ustnie przez użytkownika.</th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Klawiatura"</td>
+            <td>?</td>
+            <td>?</td>
+        </tr>
+    </tbody>
+</table>
