@@ -224,7 +224,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>4.0</th>
+            <th>5.0</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Wyszukiwarka"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji wyszukiwarka program prawidłowo przetworzy i pobierze haslo wyszkiwania, które następnie wyszuka w domyślnej przeglądarce użytkownika.</th>
         </tr>
@@ -255,7 +255,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>4.0</th>
+            <th>6.0</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Screenshot"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji screenshot asystent wykona screenshot ekrany i poprosi użytkownika o podanie nazwy pliku, jaki ma zostać utworzony, po czym zapiszę plik.</th>
         </tr>
@@ -272,6 +272,86 @@ Funkcje dodatkowe:
             <td>Wybierz głosowo funkcje pod hasłem "Screenshot"</td>
             <td>Oczekiwany wynik</td>
             <td>Rzeczywisty wynik</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>7.0</th>
+            <th colspan=2>Korzystanie z funkcji  NET - wyświetlanie wybranych stron inernetowych</th>
+            <th colspan=2>Test sprawdza czy po wybraniu funkcji z kategorii Net program otworzy przeglądarkę z właściwą stroną. </th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Strona Uniwersytetu"</td>
+            <td>Po wywołaniu funkcju, program powininen otworzyć odpowiedni adres w domyślnej przeglądarce.</td>
+            <td>Po wywołaniu funkcji haslem "Strona Uniwersytetu" program otwiera domyślną przeglądarkę i przenosi nas pod adres: "https://ug.edu.pl/"</td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Strona wydziału"</td>
+            <td>Po wywołaniu funkcju, program powininen otworzyć odpowiedni adres w domyślnej przeglądarce.</td>
+            <td>Po wywołaniu funkcji haslem "Strona wydziału" program otwiera domyślną przeglądarkę i przenosi nas pod adres: "https://wzr.ug.edu.pl/"</td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Portal edukacyjny"</td>
+            <td>Po wywołaniu funkcju, program powininen otworzyć odpowiedni adres w domyślnej przeglądarce.</td>
+            <td>Po wywołaniu funkcji haslem "Portal edukacyjny" program otwiera domyślną przeglądarkę i przenosi nas pod adres: "https://pe.ug.edu.pl/"</td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Portal studenta"</td>
+            <td>Po wywołaniu funkcju, program powininen otworzyć odpowiedni adres w domyślnej przeglądarce.</td>
+            <td>Po wywołaniu funkcji haslem "Portal studenta" program otwiera domyślną przeglądarkę i przenosi nas pod adres: "https://ps.ug.edu.pl/"</td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Rozkład zajęć"</td>
+            <td>Po wywołaniu funkcju, program powininen otworzyć odpowiedni adres w domyślnej przeglądarce.</td>
+            <td>Po wywołaniu funkcji haslem "Rozkład zajęć" program otwiera domyślną przeglądarkę i przenosi nas pod adres: "https://wzr.ug.edu.pl/studia/index.php?str=462"</td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Aktualności"</td>
+            <td>Po wywołaniu funkcju, program powininen otworzyć odpowiedni adres w domyślnej przeglądarce.</td>
+            <td>Po wywołaniu funkcji haslem "Aktualności" program otwiera domyślną przeglądarkę i przenosi nas pod adres: "https://www.dlastudenta.pl/"</td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Wsparcie"</td>
+            <td>Po wywołaniu funkcju, program powininen otworzyć odpowiedni adres w domyślnej przeglądarce.</td>
+            <td>Po wywołaniu funkcji haslem "Wsparcie" program otwiera domyślną przeglądarkę i przenosi nas pod adres: "https://www.stackoverflow.com"</td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Otwórz YouTube"</td>
+            <td>Po wywołaniu funkcju, program powininen otworzyć odpowiedni adres w domyślnej przeglądarce.</td>
+            <td>Po wywołaniu funkcji haslem "Otwórz Youtube" program otwiera domyślną przeglądarkę i przenosi nas pod adres: "https://www.youtube.com"</td>
         </tr>
     </tbody>
 </table>
