@@ -149,13 +149,6 @@ Funkcje dodatkowe:
             Pogram pobiera dane z wikipedi i dyktuje informacje.
             Program </td>
         </tr>
-        <tr>
-            <td>ID</td>
-            <td>Typ testu</td>
-            <td>Opis Kroku</td>
-            <td>Oczekiwany wynik</td>
-            <td>Rzeczywisty wynik</td>
-        </tr>
     </tbody>
 </table>
 
@@ -174,14 +167,14 @@ Funkcje dodatkowe:
             <th colspan=3>Test sprawdza czy po uruchomieniu funkcji notatka program pobierze od użytkownika tytuł notatki oraz treść noatatki. Następnie program ma za zadanie zapisać notatkę do nowego pliku.</th>
         </tr>
       <tr>
-            <td>ID</td>
+            <td></td>
             <td>Typ testu</td>
             <td>Opis Kroku</td>
             <td>Oczekiwany wynik</td>
             <td>Rzeczywisty wynik</td>
         </tr>
       <tr>
-            <td>3.1</td>
+            <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Notatka"</td>
             <td>Oczekiwany wynik</td>
