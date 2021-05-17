@@ -41,12 +41,12 @@ And more      | With an escaped '\|'         ||
             <td>Rzeczywisty wynik</td>
         </tr>
         <tr>
-            <td>ID</td>
-            <td>Nazwa</td>
-            <td>Typ testu</td>
-            <td>Opis Kroku</td>
-            <td>Oczekiwany wynik</td>
-            <td>Rzeczywisty wynik</td>
+            <td>1.1</td>
+            <td>Wyświetlenie menu asystenta głosowego</td>
+            <td>Pozytywny</td>
+            <td>Uruchom aplikację</td>
+            <td>Menu zostaję wyświetlone. Asystent głosowy się wita i zachęca głosowo do wprowadzenia funkcji.</td>
+            <td>Menu wyświetliło się. Asystent się przywitał i zachęcił do wyboru funkcji.</td>
         </tr>
         <tr>
             <td>ID</td>
