@@ -21,29 +21,43 @@ And more      | With an escaped '\|'         ||
 <table>
     <thead>
         <tr>
-            <th>Nazwa</th>
             <th>ID</th>
+            <th>Nazwa</th>
             <th colspan=4>Opis</th>
         </tr>
     </thead>
     <tbody>
         <tr>
+            <td>ID</td>
             <td>Nazwa</td>
             <td>Typ testu</td>
-            <td>ID</td>
             <td>Opis Kroku</td>
             <td>Oczekiwany wynik</td>
             <td>Rzeczywisty wynik</td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            <td>ID</td>
+            <td>Nazwa</td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
+            <td>ID</td>
+            <td>Nazwa</td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
+            <td>ID</td>
+            <td>Nazwa</td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
         </tr>
     </tbody>
 </table>
