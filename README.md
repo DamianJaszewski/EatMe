@@ -33,7 +33,7 @@ And more      | With an escaped '\|'         ||
             <th colspan=4>Test sprawdza czy po uruchomieniu aplikacji użytkownikowi wyświetli się menu z dostępnym opcjami oraz czy aplikacja głosowo zachęci użytkownika do wybrania jednej z dostępnych opcji.</th>
         </tr>
         <tr>
-            <td>ID</td>
+            <td></td>
             <td>Nazwa</td>
             <td>Typ testu</td>
             <td>Opis Kroku</td>
@@ -49,12 +49,81 @@ And more      | With an escaped '\|'         ||
             <td>Menu wyświetliło się. Asystent się przywitał i zachęcił do wyboru funkcji.</td>
         </tr>
         <tr>
-            <td>ID</td>
+            <td>1.2</td>
             <td>Nazwa</td>
             <td>Typ testu</td>
-            <td>Opis Kroku</td>
-            <td>Oczekiwany wynik</td>
-            <td>Rzeczywisty wynik</td>
+            <td>Sprawdź wyświetlane opcje, oczekiwane możliwości menu:
+Podstawowe funkcje:
+- Wikipedia
+- Notatka
+- Otwórz plik
+- Klawiatura
+- Google
+- Screenshot
+
+Funkcje webowe:
+- Strona Uniwersytetu
+- Strona wydziału
+- Portal edukacyjny
+- Portal studenta
+- Aktualności
+- Wyszukiwarka
+- Wsparcie
+- Otwórz youtube
+
+Funkcje dodatkowe:
+- Pogoda
+- Lotto
+- Gierka
+- Zamknij</td>
+            <td>Wymienione opcje się wyświetlają:
+Podstawowe funkcje:
+- Wikipedia
+- Notatka
+- Otwórz plik
+- Klawiatura
+- Google
+- Screenshot
+
+Funkcje webowe:
+- Strona Uniwersytetu
+- Strona wydziału
+- Portal edukacyjny
+- Portal studenta
+- Aktualności
+- Wyszukiwarka
+- Wsparcie
+- Otwórz youtube
+
+Funkcje dodatkowe:
+- Pogoda
+- Lotto
+- Gierka
+- Zamknij</td>
+            <td>Wymienione pola zostały wyświetlone
+Podstawowe funkcje:
+- Wikipedia
+- Notatka
+- Otwórz plik
+- Klawiatura
+- Google
+- Screenshot
+
+Funkcje webowe:
+- Strona Uniwersytetu
+- Strona wydziału
+- Portal edukacyjny
+- Portal studenta
+- Aktualności
+- Wyszukiwarka
+- Wsparcie
+- Otwórz youtube
+
+Funkcje dodatkowe:
+- Pogoda
+- Lotto
+- Gierka
+- Zamknij</td>
         </tr>
         <tr>
             <td>ID</td>
