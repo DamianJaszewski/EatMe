@@ -155,15 +155,24 @@ Funkcje dodatkowe:
         </tr>
         <tr>
             <td></td>
+            <td>Nazwa</td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+        <tr>
+            <td></td>
             <td>Korzystanie z funkcji Wikipedia</td>
             <td>Pozytywny</td>
             <td>Wybierz głoso funkcje hasłem "Wikipedia"</td>
+            <td>Po wybraniu funkcju aplikacja pobiera od użytkownika hasło i dyktuje treść hasła z wikipedii.
+            Następnie program daje możliwość zapisania fragmentu do pliku tekstowe.</td>
             <td>Po wybraniu funkcju aplikacja prosi o:
             - podanie hasła,
             - podanie ilosći zdań.
             Pogram pobiera dane z wikipedi i dyktuje informacje.
             Program </td>
-            <td>Rzeczywisty wynik</td>
         </tr>
         <tr>
             <td>1.1</td>
