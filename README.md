@@ -9,7 +9,7 @@
     </thead>
     <tbody>
         <tr>
-            <th>1.0</th>
+            <th>1</th>
             <th colspan=2>Wyświetlenie menu asystenta głosowego</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu aplikacji użytkownikowi wyświetli się menu z dostępnym opcjami oraz czy aplikacja głosowo zachęci użytkownika do wybrania jednej z dostępnych opcji.</th>
         </tr>
@@ -126,7 +126,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>2.0</th>
+            <th>2</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Wikipedia"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji wikipedia program prawidłowo przetworzy i pobierze hasło od użytkownika, następnie pobierze liczbę zdań od użytkownika. Podyktuje treść. Daną treść będzie można następnie zapisać do nowego pliku. </th>
         </tr>
@@ -162,7 +162,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>3.0</th>
+            <th>3</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Notatka"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji notatka program pobierze od użytkownika tytuł notatki oraz treść noatatki. Następnie program ma za zadanie zapisać notatkę do nowego pliku.</th>
         </tr>
@@ -193,7 +193,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>4.0</th>
+            <th>4</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Otwórz plik" lub "Otwórz notatkę"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji otwórz plik, otwórz notatkę program pobierze nazwę wybranego przez użytkownika pliku, notatki oraz otworzy go.</th>
         </tr>
@@ -224,7 +224,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>5.0</th>
+            <th>5</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Wyszukiwarka"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji wyszukiwarka program prawidłowo przetworzy i pobierze haslo wyszkiwania, które następnie wyszuka w domyślnej przeglądarce użytkownika.</th>
         </tr>
@@ -255,7 +255,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>6.0</th>
+            <th>6</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Screenshot"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji screenshot asystent wykona screenshot ekrany i poprosi użytkownika o podanie nazwy pliku, jaki ma zostać utworzony, po czym zapiszę plik.</th>
         </tr>
@@ -286,7 +286,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>7.0</th>
+            <th>7</th>
             <th colspan=2>Korzystanie z funkcji  NET - wyświetlanie wybranych stron inernetowych</th>
             <th colspan=2>Test sprawdza czy po wybraniu funkcji z kategorii Net program otworzy przeglądarkę z właściwą stroną. </th>
         </tr>
@@ -366,7 +366,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>8.0</th>
+            <th>8</th>
             <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Pogoda"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji Pogoda i podaniu wybranego przez użytkownika miasta program prawidłowo przetworzy i pobierze miasto oraz przekarze dane pogodowe dla danej miejscowosci.</th>
         </tr>
@@ -397,7 +397,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>9.0</th>
+            <th>9</th>
             <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Klawiatura"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji Klawiatura program prawidłowo przetworzy i pobierze symbol klawisza przekazywany ustnie przez użytkownika.</th>
         </tr>
@@ -418,7 +418,6 @@ Funkcje dodatkowe:
     </tbody>
 </table>
 
-
 <table>
     <thead>
         <tr>
@@ -429,7 +428,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>10.0</th>
+            <th>10</th>
             <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Lotto"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji Lotto program zleci użytkownikowi wybranie po kolei 6 kolejnych różnych cyfr z zakresu od 1-49, po czym wylosuje liczby i zestawi je z liczbami użytkownika. </th>
         </tr>
@@ -460,7 +459,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>11.0</th>
+            <th>11</th>
             <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Gierka"</th>
             <th colspan=2>Test sprawdza czy po uruchomieniu funkcji gra program zleci użytkownikowi odgadnięcie liczby z zakresy 1-100, program poinformuje jeśli zgadywana liczba większa lub mniejsza od poszukiwanej. Program poinformuje użytkownia w momencie odgadnięcia liczby.</th>
         </tr>
@@ -491,7 +490,7 @@ Funkcje dodatkowe:
     </thead>
     <tbody>
         <tr>
-            <th>12.0</th>
+            <th>12</th>
             <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Zamykanie programy"</th>
             <th colspan=2>Test sprawdza czy po wywołaniu funkcji "Zamknij" program skończy działanie. </th>
         </tr>
