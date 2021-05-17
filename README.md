@@ -52,7 +52,8 @@ And more      | With an escaped '\|'         ||
             <td>1.2</td>
             <td>Nazwa</td>
             <td>Typ testu</td>
-            <td>Sprawdź wyświetlane opcje, oczekiwane możliwości menu:
+            <td>Sprawdź wyświetlane opcje, oczekiwane funkcje menu.
+             
 Podstawowe funkcje:
 - Wikipedia
 - Notatka
@@ -76,7 +77,8 @@ Funkcje dodatkowe:
 - Lotto
 - Gierka
 - Zamknij</td>
-            <td>Wymienione opcje się wyświetlają:
+            <td>Wymienione opcje się wyświetlają.
+ 
 Podstawowe funkcje:
 - Wikipedia
 - Notatka
@@ -100,7 +102,8 @@ Funkcje dodatkowe:
 - Lotto
 - Gierka
 - Zamknij</td>
-            <td>Wymienione pola zostały wyświetlone
+            <td>Wymienione pola zostały wyświetlone.
+ 
 Podstawowe funkcje:
 - Wikipedia
 - Notatka
