@@ -24,6 +24,9 @@ And more      | With an escaped '\|'         ||
             <th>Layer 1</th>
             <th>Layer 2</th>
             <th>Layer 3</th>
+            <th>Layer 4</th>
+            <th>Layer 5</th>
+            <th>Layer 5</th>
         </tr>
     </thead>
     <tbody>
