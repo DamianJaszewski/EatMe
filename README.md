@@ -417,3 +417,97 @@ Funkcje dodatkowe:
         </tr>
     </tbody>
 </table>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>10.0</th>
+            <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Lotto"</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji Lotto program zleci użytkownikowi wybranie po kolei 6 kolejnych różnych cyfr z zakresu od 1-49, po czym wylosuje liczby i zestawi je z liczbami użytkownika. </th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Lotto"</td>
+            <td>?</td>
+            <td>?</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>11.0</th>
+            <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Gierka"</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji gra program zleci użytkownikowi odgadnięcie liczby z zakresy 1-100, program poinformuje jeśli zgadywana liczba większa lub mniejsza od poszukiwanej. Program poinformuje użytkownia w momencie odgadnięcia liczby.</th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Gierka"</td>
+            <td>?</td>
+            <td>?</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th colspan=2>Nazwa</th>
+            <th colspan=2>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>12.0</th>
+            <th colspan=2>Funkcje dodatkowe - Korzystanie z funkcji "Zamykanie programy"</th>
+            <th colspan=2>Test sprawdza czy po wywołaniu funkcji "Zamknij" program skończy działanie. </th>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Typ testu</td>
+            <td>Opis Kroku</td>
+            <td>Oczekiwany wynik</td>
+            <td>Rzeczywisty wynik</td>
+        </tr>
+      <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Zamykanie programy"</td>
+            <td>?</td>
+            <td>?</td>
+        </tr>
+    </tbody>
+</table>
