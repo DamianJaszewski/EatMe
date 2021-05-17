@@ -28,6 +28,11 @@ And more      | With an escaped '\|'         ||
     </thead>
     <tbody>
         <tr>
+            <th>1.0</th>
+            <th>Wyświetlenie menu asystenta głosowego</th>
+            <th colspan=4>Test sprawdza czy po uruchomieniu aplikacji użytkownikowi wyświetli się menu z dostępnym opcjami oraz czy aplikacja głosowo zachęci użytkownika do wybrania jednej z dostępnych opcji.</th>
+        </tr>
+        <tr>
             <td>ID</td>
             <td>Nazwa</td>
             <td>Typ testu</td>
