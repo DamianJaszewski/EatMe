@@ -110,7 +110,7 @@ Funkcje dodatkowe:
             <td>Pozytywny</td>
             <td>W przypadku braku reakcji ze strony użytkownika</td>
             <td>Asystent poinformuje o oczekiwaniu na wybranie funkcji</td>
-            <td>Asystent prosi o wybranie funkcju "Podaj nazwę funkcji. Słucham Cię"</td>
+            <td>Asystent prosi o wybranie funkcji "Podaj nazwę funkcji. Słucham Cię"</td>
         </tr>
     </tbody>
 </table>
@@ -142,9 +142,7 @@ Funkcje dodatkowe:
             <td>Wybierz głosowo funkcje pod hasłem "Wikipedia"</td>
             <td>Po wybraniu funkcju aplikacja pobiera od użytkownika hasło oraz ilość zdań które ma dyktować.
             Następnie program dyktuje treść.</td>
-            <td>Po wybraniu funkcji aplikacja prosi o:
-            - podanie hasła,
-            - podanie ilosći zdań.
+            <td>Po wybraniu funkcji aplikacja prosi o podanie hasła, podanie ilosći zdań.
             Pogram pobiera dane z wikipedii i dyktuje fragment.</td>
         </tr>
           <tr>
@@ -270,8 +268,8 @@ Funkcje dodatkowe:
             <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Wyszukiwarka"</td>
-            <td>Oczekiwany wynik</td>
-            <td>Rzeczywisty wynik</td>
+            <td>Program pobiera od użytkownika haslo wyszukiwania, które następnie wyszukuje w oknie domyślnej preglądarki</td>
+            <td>Program pobrał haslo i prawidłowo wyświetlił okno przeglądarki z wskazanym hasłem</td>
         </tr>
     </tbody>
 </table>
@@ -301,8 +299,12 @@ Funkcje dodatkowe:
             <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Screenshot"</td>
-            <td>Oczekiwany wynik</td>
-            <td>Rzeczywisty wynik</td>
+            <td>Asystent wykona screenshot okna, poprosi o podanie nazwy i zapiszę go do pliku</td>
+            <td>Asystent wykonał screenshot okna, poprosił o podanie nazwy i zapisał go do pliku</td>
+        </tr>
+         <tr>
+            <th colspan=2>Uwagi</th>
+            <th colspan=3>Asystent wykonuje screenshota tylko na ekranie pierwszym, można rozbudować w przyszłości funkcje o dodatkowe opcje.</th>
         </tr>
     </tbody>
 </table>
