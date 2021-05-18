@@ -110,7 +110,7 @@ Funkcje dodatkowe:
             <td>1.3</td>
             <td>Pozytywny</td>
             <td>W przypadku braku reakcji ze strony użytkownika</td>
-            <td>Asystent poinformuje o tym użytkownika</td>
+            <td>Asystent poinformuje </td>
             <td>Rzeczywisty wynik</td>
         </tr>
     </tbody>
@@ -138,16 +138,22 @@ Funkcje dodatkowe:
             <td>Rzeczywisty wynik</td>
         </tr>
         <tr>
-            <td></td>
+            <td>2.1</td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Wikipedia"</td>
-            <td>Po wybraniu funkcju aplikacja pobiera od użytkownika hasło i dyktuje treść hasła z wikipedii.
-            Następnie program daje możliwość zapisania fragmentu do pliku tekstowe.</td>
+            <td>Po wybraniu funkcju aplikacja pobiera od użytkownika hasło oraz ilość zdań które ma dyktować.
+            Następnie program dyktuje treść.</td>
             <td>Po wybraniu funkcju aplikacja prosi o:
             - podanie hasła,
             - podanie ilosći zdań.
-            Pogram pobiera dane z wikipedi i dyktuje informacje.
-            Program </td>
+            Pogram pobiera dane z wikipedi i dyktuje fragment</td>
+        </tr>
+          <tr>
+            <td>2.2</td>
+            <td>Negatywny</td>
+            <td>Zapisywanie do pliku</td>
+            <td>Po odsłuchaniu fragmentu z wikipedii mamy możliwość zapisać treść do pliku, program pyta czy chcemy zapisać plik tak/nie, prosi o podanie tytułu</td>
+            <td>Po wybraniu opcji, program nei zrozumiał polecenia, program zamiast wywołać funkcję jeszcze raz wrócił do kroku wybierania funkcji </td>
         </tr>
     </tbody>
 </table>
