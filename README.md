@@ -150,10 +150,10 @@ Funkcje dodatkowe:
         </tr>
           <tr>
             <td>2.2</td>
-            <td>Negatywny</td>
+            <td>Pozytywny</td>
             <td>Zapisywanie do pliku</td>
-            <td>Po odsłuchaniu fragmentu z wikipedii mamy możliwość zapisać treść do pliku, program pyta czy chcemy zapisać plik tak/nie, prosi o podanie tytułu</td>
-            <td>Po wybraniu opcji, program nie zrozumiał polecenia, program zamiast wywołać funkcję jeszcze raz wrócił do kroku wybierania funkcji </td>
+            <td>Po odsłuchaniu fragmentu z wikipedii mamy możliwość zapisać treść do pliku, program pyta czy chcemy zapisać plik tak/nie, następnie prosi o podanie tytułu</td>
+            <td>Po wybraniu opcji program poprosił o podanie tytułu pliku i zapisał nowy plik o tym tytule.</td>
         </tr>
     </tbody>
 </table>
@@ -389,6 +389,10 @@ Funkcje dodatkowe:
             <td>Wybierz głosowo funkcje pod hasłem "Pogoda" + wybrane miasto</td>
             <td>Program po wywołaniu funkcji i po podaniu miasta przekazuje dane odnośnie pogody.</td>
             <td>Program po wywołaniu funkcji pogoda i podaniu miasta pobrał i przekazał głosowo aktualną informację o pogodzie</td>
+        </tr>
+         <tr>
+            <td colspan=2>Uwagi</td>
+            <td colspan=3>W przypadku problemu z pobraniem hasła - zarówno przy dydktowaniu hasła wikipedii czy w przypadku tworzenia notatki program wraca do podstawowych funkcji</td>
         </tr>
     </tbody>
 </table>
