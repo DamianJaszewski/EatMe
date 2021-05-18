@@ -1,3 +1,28 @@
+
+Funkcje podstawowe:
+* Wikipedia - uruchamia funkcję wyszukiwania haseł na wikipedii z możliwością zapisu do pliku.
+* Notatka - funkcja zapisująca plik o podanym głosowo tytule i zawartością.
+* Otwórz plik lub otwórz notatkę - otwieranie zapisanego pliku.
+* Wyszukiwarka - wyświetla 5 pierwszych wyników i uruchamia wyszukiwarkę z podanych hasłem.
+* Screenshot - pobiera i zapisuje zawartość ekranu do pliku png z podanym przez użytkownika tytułem.
+            
+Funkcje NET:
+* Strona Uniwersytetu - uruchamia stronę główną UG.
+* Strona wydziału - uruchamia stronę wydziału WZR.
+* Portal edukacyjny - uruchamia stronę portalu edukacyjnego.
+* Portal studenta - otwiera stronę portalu studenta.
+* Rozkład zajęć - wyświetla podstronę z planem zajęć WZR.
+* Aktualności - uruchamia witrynę z aktualnościami studenckimi.
+* Wsparcie - masz problem z kodem? Otworzę Stack Overflow.
+* Otwórz youtube - chcesz posłuchać muzyki lub obejrzeć video?
+            
+Funkcje dodatkowe:
+* Pogoda - zapytaj o aktualną pogodę wypowiadając funkcję wraz z nazwą krajowej miejscowości, która chcesz sprawdzić.
+* Klawiatura - funkcja umożliwiająca wybór pojedynczego klawisza lub skrótu klawiszowego.
+* Lotto - symulator lotto. Zastanawiałeś się jakie masz szczęście w grach losowych? Sprawdź się.
+* Gierka - rozerwij się i ogadnij wylosowaną liczbę.
+* Zamknij - wyjście z programu.
+
 <table>
     <thead>
         <tr>
