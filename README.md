@@ -156,8 +156,8 @@ Funkcje dodatkowe:
             <td>Po wybraniu opcji program poprosił o podanie tytułu pliku i zapisał nowy plik o tym tytule.</td>
         </tr>
           <tr>
-            <td colspan=2>Uwagi</td>
-            <td colspan=3>W przypadku problemu z pobraniem hasla od użytkownika asystent mówi komunikat Spróbuj jeszcze raz i wraca do podstawowych funkcji</td
+            <th colspan=2>Uwagi</th>
+            <th colspan=3>W przypadku problemu z pobraniem hasla od użytkownika asystent mówi komunikat Spróbuj jeszcze raz i wraca do podstawowych funkcji</th>
         </tr>
     </tbody>
 </table>
@@ -174,7 +174,7 @@ Funkcje dodatkowe:
         <tr>
             <th>3</th>
             <th colspan=2>Funkcje podstawowe - korzystanie z funkcji "Notatka"</th>
-            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji notatka program pobierze od użytkownika tytuł notatki oraz treść noatatki. Następnie program ma za zadanie zapisać notatkę do nowego pliku.</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu funkcji notatka program pobierze od użytkownika tytuł notatki oraz treść notatki. Następnie program ma za zadanie zapisać notatkę do nowego pliku.</th>
         </tr>
       <tr>
             <td></td>
@@ -189,6 +189,10 @@ Funkcje dodatkowe:
             <td>Wybierz głosowo funkcje pod hasłem "Notatka"</td>
             <td>Oczekiwany wynik</td>
             <td>Rzeczywisty wynik</td>
+        </tr>
+          <tr>
+            <th colspan=2>Uwagi</th>
+            <th colspan=3>W przypadku zapisywania pliku brakuje kodowania znaków specjalnych dla języka polskiego</th>
         </tr>
     </tbody>
 </table>
