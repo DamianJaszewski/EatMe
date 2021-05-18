@@ -153,7 +153,7 @@ Funkcje dodatkowe:
             <td>Negatywny</td>
             <td>Zapisywanie do pliku</td>
             <td>Po odsłuchaniu fragmentu z wikipedii mamy możliwość zapisać treść do pliku, program pyta czy chcemy zapisać plik tak/nie, prosi o podanie tytułu</td>
-            <td>Po wybraniu opcji, program nei zrozumiał polecenia, program zamiast wywołać funkcję jeszcze raz wrócił do kroku wybierania funkcji </td>
+            <td>Po wybraniu opcji, program nie zrozumiał polecenia, program zamiast wywołać funkcję jeszcze raz wrócił do kroku wybierania funkcji </td>
         </tr>
     </tbody>
 </table>
