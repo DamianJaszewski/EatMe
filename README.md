@@ -1,4 +1,3 @@
-# EatMe
 <table>
     <thead>
         <tr>
