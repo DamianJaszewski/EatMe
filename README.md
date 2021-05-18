@@ -220,9 +220,20 @@ Funkcje dodatkowe:
       <tr>
             <td></td>
             <td>Pozytywny</td>
-            <td>Wybierz głosowo funkcje pod hasłem "Otwórz plik" lub "Otwórz notatkę"</td>
-            <td>Oczekiwany wynik</td>
-            <td>Rzeczywisty wynik</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Otwórz notatkę"</td>
+            <td>Asystent po wybraniu funkcji zapyta o nazwę pliku i wyświetli użytkownikowi notatkę.</td>
+            <td>Po wybraniu funkcji assytent zapytał i tytuł notatki następnie ją wyswietlił</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Negatywny</td>
+            <td>Wybierz głosowo funkcje pod hasłem "Otwórz plik"</td>
+            <td>Asystent po wybraniu funkcji zapyta o nazwę pliku i wyświetli ją użytkownikowi</td>
+            <td>Asystent po wybraniu funkcji pobrał i wyświetlił tylko pliki z roszrzeszniem txt</td>
+        </tr>
+            <tr>
+            <th colspan=2>Uwagi</th>
+            <th colspan=3>W przypadku wybrania funkcji otwórz plik nie ma możliwości wyboru rozszerzenia pliku w praktyce można otworzyć jedynie notatkę.</th>
         </tr>
     </tbody>
 </table>
