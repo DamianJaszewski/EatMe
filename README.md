@@ -10,7 +10,7 @@
         <tr>
             <th>1</th>
             <th colspan=2>Wyświetlenie menu asystenta głosowego</th>
-            <th colspan=2>Test sprawdza czy po uruchomieniu aplikacji użytkownikowi wyświetli się menu z dostępnym opcjami oraz czy aplikacja głosowo zachęci użytkownika do wybrania jednej z dostępnych opcji.</th>
+            <th colspan=2>Test sprawdza czy po uruchomieniu aplikacji użytkownikowi wyświetli się menu z dostępnymi opcjami oraz czy aplikacja głosowo zachęci użytkownika do wybrania jednej z dostępnych opcji.</th>
         </tr>
         <tr>
             <td></td>
@@ -142,10 +142,10 @@ Funkcje dodatkowe:
             <td>Wybierz głosowo funkcje pod hasłem "Wikipedia"</td>
             <td>Po wybraniu funkcju aplikacja pobiera od użytkownika hasło oraz ilość zdań które ma dyktować.
             Następnie program dyktuje treść.</td>
-            <td>Po wybraniu funkcju aplikacja prosi o:
+            <td>Po wybraniu funkcji aplikacja prosi o:
             - podanie hasła,
             - podanie ilosći zdań.
-            Pogram pobiera dane z wikipedi i dyktuje fragment</td>
+            Pogram pobiera dane z wikipedii i dyktuje fragment.</td>
         </tr>
           <tr>
             <td>2.2</td>
@@ -185,13 +185,20 @@ Funkcje dodatkowe:
       <tr>
             <td></td>
             <td>Pozytywny</td>
-            <td>Wybierz głosowo funkcje pod hasłem "Notatka"</td>
-            <td>Oczekiwany wynik</td>
-            <td>Rzeczywisty wynik</td>
+            <td>Wprowadź tytuł notatki.</td>
+            <td>Program po wybraniu funkcji zapyta nas o tytuł notatki.</td>
+            <td>Program po wybraniu funkcji zapytał o tytuł notatki, w przypadku nie zrozumienia tytułu, program utworzył notatkę bez tytułu.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Pozytywny</td>
+            <td>Wprowadź treść notatki.</td>
+            <td>Program pobierze od użytkownika treść notatki.</td>
+            <td>Program prawidłowo pobiera treść notakti.</td>
         </tr>
           <tr>
             <th colspan=2>Uwagi</th>
-            <th colspan=3>W przypadku zapisywania pliku brakuje kodowania znaków specjalnych dla języka polskiego</th>
+            <th colspan=3>W przypadku nie zrozumienia tytułu, program utworzył notatkę bez tytułu.</th>
         </tr>
     </tbody>
 </table>
