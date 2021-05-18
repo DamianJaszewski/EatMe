@@ -156,7 +156,7 @@ Funkcje dodatkowe:
         </tr>
           <tr>
             <th colspan=2>Uwagi</th>
-            <th colspan=3>W przypadku problemu z pobraniem hasla od użytkownika asystent mówi komunikat Spróbuj jeszcze raz i wraca do podstawowych funkcji</th>
+            <th colspan=3>W przypadku problemu z pobraniem hasła od użytkownika asystent przekauzuje komunikat "Spróbuj jeszcze raz" i wraca do podstawowych funkcji nie dając nam możliwości kontynuowania</th>
         </tr>
     </tbody>
 </table>
