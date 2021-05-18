@@ -327,10 +327,7 @@ Funkcje dodatkowe:
             <td>Asystent wykona screenshot okna, poprosi o podanie nazwy i zapiszę go do pliku</td>
             <td>Asystent wykonał screenshot okna, poprosił o podanie nazwy i zapisał go do pliku</td>
         </tr>
-         <tr>
-            <th colspan=2>Uwagi</th>
-            <th colspan=3>Asystent wykonuje screenshota tylko na ekranie pierwszym, można rozbudować w przyszłości funkcje o dodatkowe opcje.</th>
-        </tr>
+         c
     </tbody>
 </table>
 
@@ -442,10 +439,6 @@ Funkcje dodatkowe:
             <td>Program po wywołaniu funkcji i po podaniu miasta przekazuje dane odnośnie pogody.</td>
             <td>Program po wywołaniu funkcji pogoda i podaniu miasta pobrał i przekazał głosowo aktualną informację o pogodzie</td>
         </tr>
-         <tr>
-            <td colspan=2>Uwagi</td>
-            <td colspan=3>W przypadku problemu z pobraniem hasła - zarówno przy dydktowaniu hasła wikipedii czy w przypadku tworzenia notatki program wraca do podstawowych funkcji</td>
-        </tr>
     </tbody>
 </table>
 
@@ -474,8 +467,12 @@ Funkcje dodatkowe:
             <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Klawiatura"</td>
-            <td>?</td>
-            <td>?</td>
+            <td>Funkcja umożliwia wybór pojedynczego klawisza lub skrótu klawiszowego</td>
+            <td>Funkcja pobiera zarówno litery jak i znaki specjalne, dizęki pobraniu znaków można wyszukać hasło w interncie.</td>
+        </tr>
+           <tr>
+            <th colspan=2>Uwagi</th>
+            <th colspan=3>Pomimo wpisania hasła brak obsługi skrótów klawiszowych, albo jest to niejasne, program pobiera np. hasło enter, backspace, ale nie wiążę się to z właściwą akcją. </th>
         </tr>
     </tbody>
 </table>
@@ -505,8 +502,8 @@ Funkcje dodatkowe:
             <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Lotto"</td>
-            <td>?</td>
-            <td>?</td>
+            <td>Asystent pobiera od użytkownika po kolei 6 liczb z zakresu 1 - 49, aplikacja przujmuje tylko liczby. Pokazuje </td>
+            <td>Asystent pobrał 6 liczb, zaznaczając każdą z nich. Następnie wylosował liczby i pokazał wynik.</td>
         </tr>
     </tbody>
 </table>
@@ -536,8 +533,8 @@ Funkcje dodatkowe:
             <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Gierka"</td>
-            <td>?</td>
-            <td>?</td>
+            <td>Funkcja losuje liczbę następnie prosi użytkownika o jej odgadnięcie, asysent informuje czy liczba jest zbyt mała lub zbyt duża</td>
+            <td>Funkcja wylosowała liczbę i poprosiła o jej podanie, asystent poinformował gdy licznba była zbyt mała lub zbyt duża, asystent poinformował i odgadnięciu liczby hasłem "brawo".</td>
         </tr>
     </tbody>
 </table>
@@ -567,8 +564,8 @@ Funkcje dodatkowe:
             <td></td>
             <td>Pozytywny</td>
             <td>Wybierz głosowo funkcje pod hasłem "Zamykanie programy"</td>
-            <td>?</td>
-            <td>?</td>
+            <td>Funkcja ma za zadanie zamknąć program.</td>
+            <td>Po wybraniu funkcji program się zamyka.</td>
         </tr>
     </tbody>
 </table>
