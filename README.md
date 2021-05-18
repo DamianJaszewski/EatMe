@@ -110,8 +110,8 @@ Funkcje dodatkowe:
             <td>1.3</td>
             <td>Pozytywny</td>
             <td>W przypadku braku reakcji ze strony użytkownika</td>
-            <td>Asystent poinformuje </td>
-            <td>Rzeczywisty wynik</td>
+            <td>Asystent poinformuje o oczekiwaniu na wybranie funkcji</td>
+            <td>Asystent prosi o wybranie funkcju "Podaj nazwę funkcji. Słucham Cię"</td>
         </tr>
     </tbody>
 </table>
@@ -154,6 +154,10 @@ Funkcje dodatkowe:
             <td>Zapisywanie do pliku</td>
             <td>Po odsłuchaniu fragmentu z wikipedii mamy możliwość zapisać treść do pliku, program pyta czy chcemy zapisać plik tak/nie, następnie prosi o podanie tytułu</td>
             <td>Po wybraniu opcji program poprosił o podanie tytułu pliku i zapisał nowy plik o tym tytule.</td>
+        </tr>
+          <tr>
+            <td colspan=2>Uwagi</td>
+            <td colspan=3>W przypadku problemu z pobraniem hasla od użytkownika asystent mówi komunikat Spróbuj jeszcze raz i wraca do podstawowych funkcji</td
         </tr>
     </tbody>
 </table>
