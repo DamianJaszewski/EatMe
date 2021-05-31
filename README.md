@@ -11,10 +11,10 @@
 Aplikacja jest przeznaczona dla osób które chcą zebrać w jednym miejscu wszystkie przepisy wraz z instrukcjami.
 ## Dokumentacja
 ![Przepisy](EatMeAgain/wwwroot/img/Recipes.png)
-![Dodaj przepis](./img/AddIngredient.png)
-![Edytuj](./img/Edit.png)
-![Szczegóły](./img/Details.png)
-![Dodaj składnik](./img/AddIngredient.png)
+![Dodaj przepis](EatMeAgain/wwwroot/img/img/AddIngredient.png)
+![Edytuj](EatMeAgain/wwwroot/img/img/Edit.png)
+![Szczegóły](EatMeAgain/wwwroot/img/img/Details.png)
+![Dodaj składnik](EatMeAgain/wwwroot/img/img/AddIngredient.png)
 ## Technologie
 * ASP.NET 5.0
 ## Funkcjonalności
