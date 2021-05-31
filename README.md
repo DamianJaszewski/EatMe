@@ -10,7 +10,7 @@
 ## Informacje ogólne
 Aplikacja jest przeznaczona dla osób które chcą zebrać w jednym miejscu wszystkie przepisy wraz z instrukcjami.
 ## Dokumentacja
-![Przepisy](./img/Recipes.png)
+![Przepisy](EatMeAgain/wwwroot/img/Recipes.png)
 ![Dodaj przepis](./img/AddIngredient.png)
 ![Edytuj](./img/Edit.png)
 ![Szczegóły](./img/Details.png)
