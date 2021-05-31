@@ -1,0 +1,55 @@
+﻿@model EatMeAgain.Models.IngredientList
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Dodaj składnik</h1>
+
+<h4>IngredientList</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RecipeID" class="control-label">Przepis</label>
+                <select asp-for="RecipeID" class="form-control" asp-items="ViewBag.Recipe"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ingredient.Name" class="control-label">Składnik</label>
+                <input asp-for="Ingredient.Name" class="form-control" />
+                <span asp-validation-for="Ingredient.Name" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="IngredientID" class="control-label"></label>
+                <select asp-for="IngredientID" class="form-control" asp-items="ViewBag.Ingredient"></select>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="Measure.Name" class="control-label">Miara (np. łyżka)</label>
+                <input asp-for="Measure.Name" class="form-control" />
+                <span asp-validation-for="Measure.Name" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+            <label asp-for="MeasureID" class="control-label"></label>
+            <select asp-for="MeasureID" class="form-control" asp-items="ViewBag.Measure"></select>
+        </div>*@
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label">Ilość</label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Stwórz" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Wróć</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

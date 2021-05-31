@@ -1,0 +1,70 @@
+﻿@model EatMeAgain.Models.Recipe
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Szczegóły przepisu</h1>
+
+<div>
+    <h4>Przepis</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Nazwa przepisu
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Przygotowanie
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PreepTime) minut
+        </dd>
+        <dt class="col-sm-2">
+            Instrukcja
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Instruction)
+        </dd>
+
+        <dt class="col-sm-2">
+            Lista składników
+        </dt>
+        <dd class="col-sm-10">
+            <table class="table">
+                <tr>
+                    <th>Składnik</th>
+                    <th>Ilość</th>
+                    <th>Miara</th>
+                    <th></th>
+                </tr>
+                @foreach (var item in Model.IngredientLists)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Ingredient.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Measure.Name)
+                        </td>
+                        <td>
+                            <a asp-controller="IngredientLists" asp-action="Edit" asp-route-id="@item.ID">Edytuj</a> |
+                            <a asp-controller="IngredientLists" asp-action="Details" asp-route-id="@item.ID">Szczegóły</a> |
+                            <a asp-controller="IngredientLists" asp-action="Delete" asp-route-id="@item.ID">Usuń</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-controller="Recipes" asp-action="Edit" asp-route-id="@Model.ID">Edytuj</a> |
+    <a asp-controller="Recipes" asp-action="Index">Wroć</a> |
+    <a asp-controller="IngredientLists" asp-action="Create">Dodaj składnik</a>
+</div>

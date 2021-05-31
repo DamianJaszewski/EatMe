@@ -1,0 +1,41 @@
+﻿@model IEnumerable<EatMeAgain.Models.Recipe>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Przepisy</h1>
+
+<p>
+    <a asp-action="Create">Stwórz przepis</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Przepis</th>
+            <th>Przygotowanie</th>
+            <th>Instrukcja</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name) 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PreepTime) minut
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instruction)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edytuj</a>
+                <a asp-action="Details" asp-route-id="@item.ID">Szczegóły</a>
+                <a asp-action="Delete" asp-route-id="@item.ID">Usuń</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
